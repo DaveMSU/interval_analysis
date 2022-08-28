@@ -11,7 +11,6 @@ def merge_list_of_intervals(
     [(2.0, 3.0), (1.5, 2.5), (2.99, 5.1)] -> 
      -> (1.5, 5.1)
     """
-    
     if test_coverage:
         sorted_intervals_list = sorted(
             intervals_list,
